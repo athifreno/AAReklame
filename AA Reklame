@@ -1,0 +1,5 @@
+   document.getElementById('contactForm').addEventListener('submit', function(e) {
+       e.preventDefault();
+       alert('Terima kasih! Pesan Anda telah dikirim.');
+       // Di sini bisa tambahkan kode untuk kirim email via API seperti EmailJS
+   });
